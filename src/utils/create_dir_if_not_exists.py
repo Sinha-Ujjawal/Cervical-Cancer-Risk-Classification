@@ -13,3 +13,4 @@ def create_dir_if_not_exists(dirpath: str) -> Optional[bool]:
     """
     if not os.path.exists(dirpath):
         os.makedirs(dirpath)
+        return True
